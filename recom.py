@@ -86,7 +86,7 @@ if __name__=="__main__":
         clf = NearestNeighbors(n_neighbors=5, algorithm=algorithms[0]).fit(new_data_frame)
         distances, indices = clf.kneighbors(new_data_frame)
 
-    path_with_name = "C:/Users/Shantam Vijayputra/Desktop/intern/clf.pkl"
+    path_with_name = "clf.pkl"
     _type = "wb"
     obj.save_clf(clf, path_with_name, _type)
 
