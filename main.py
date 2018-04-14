@@ -168,7 +168,7 @@ Brand \t Product \t Model \t Color \tPrice \t Rating
         for i in index[0]:
             list1 = list(df.iloc[i])
             list2 = [str(x).encode('utf-8','ignore') for x in list1]
-            #print (list2) for python2
+            #print (list2)#for python2
             print(list1)#for python3
 
     except KeyError as  k:
