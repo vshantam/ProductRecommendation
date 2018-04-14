@@ -66,6 +66,26 @@ Screenshot:
             ipython3 recom.py # It will build the classifier.
             ipython3 main.py # main python script.
             
+  if you want to run using python2 or ipython2
+  
+   in <b>recom.py</b> change the following:
+  
+                #obj.save_clf(clf, "clf.sav", _type, 2) #for python2 #uncomment this line.
+                obj.save_clf(clf, "clf.pkl", _type, 3) #for python3 #comment this line
+                
+   in <b>main.py</b> 
+        
+            #print (list2) for python2 #uncomment this line
+            print(list1)#for python3 #comment this line
+            
+ then run the following commands :
+ 
+  commands:
+  
+            ipython recom.py #build the classifier in .sav extension
+            ipython main.py #main script
+            
+  <b> By default it is set to run for python3 version.<br>
   screenshot:
   
   ![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output3.png)
