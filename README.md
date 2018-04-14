@@ -91,4 +91,6 @@ Final output:
 
 <b><h4>NOTE:</h4></b> Make sure you type the product details correctly(spelling) and the specifications which are present in the dataset.
 
-This application is built on Linux based system, it will be best to run on the same but it may run on windows also(not tested yet,soon will be updated.)
+This application is built on Linux based system, it will be best to run on the same but it may run on windows also(not tested yet,soon will be updated.)<br>
+
+Recommended using python3 because most of the dependencies works best with python3 but not with python2.
