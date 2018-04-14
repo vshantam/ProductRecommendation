@@ -53,11 +53,13 @@ if __name__ == "__main__":
     print("Enter your Response: ")
 
     while(True):
-        
-        response = input().strip().split(" ")
+        try:
+            response = input().strip().split(" ")
+        except:
+            response = raw_input().strip().split(" ")            
     
         if len(response) != 6:
-            print({}.format("Response is not propper"))
+            print(("Response is not propper"))
         
         else:
             break
