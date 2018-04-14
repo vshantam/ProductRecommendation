@@ -41,7 +41,7 @@ if __name__ == "__main__":
     init(strip=not sys.stdout.isatty()) 
     cprint(figlet_format('P R S!', font='starwars'),
        'yellow', 'on_red', attrs=['bold'])
-    print("## Product  Recommendor     System!##\n")
+    print("## Product  Recommender     System!##\n")
  
     obj = Main()
     
@@ -91,6 +91,7 @@ if __name__ == "__main__":
         
         index = clf.kneighbors([[brand, product, model, color, price, rating]], int(input("No. of recomendations:").strip()), return_distance=False)
         
+        print("\nBrand \t Product \t Model \t Color \tPrice \t Rating\n");
         for i in index[0]:
             print(list(df.iloc[i]))
             
