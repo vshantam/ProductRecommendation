@@ -70,13 +70,17 @@ Screenshot:
   
    in <b>recom.py</b> change the following:
   
+           line no :110 - 111
+           
                 #obj.save_clf(clf, "clf.sav", _type, 2) #for python2 #uncomment this line.
-                obj.save_clf(clf, "clf.pkl", _type, 3) #for python3 #comment this line
+                 obj.save_clf(clf, "clf.pkl", _type, 3) #for python3 #comment this line
                 
-   in <b>main.py</b> 
+   in <b>main.py</b> change the following:
+   
+        line no : 171 - 172
         
             #print (list2) for python2 #uncomment this line
-            print(list1)#for python3 #comment this line
+             print(list1)#for python3 #comment this line
             
  then run the following commands :
  
