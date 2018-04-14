@@ -2,7 +2,7 @@
 <b>MACHINE LEARNING</b>
 
 It is one of the applications of machine learning.it Recommends the similar products based on users choice that he enters.<br>
-This aplication is based on the electronics based products and to build this dataset i have made a dummy dataset of my own.This datasets does not belongs to any e commerce websites.
+This aplication is based on the electronics based products and to build this dataset i have made a dummy dataset of my own.This datasets does not belongs to any e-commerce websites.
 
 <h2> CONTENTS </h2>
 
@@ -10,7 +10,8 @@ This aplication is based on the electronics based products and to build this dat
     2.Requirements and Dependencies.
     4.How to run.
     5.Snapshots.
-    6.References.
+    6.Outputs
+    7.References.
 <h3> INTRODUCTION </h3>
 
 ![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/prs1.png)
@@ -41,6 +42,7 @@ More Details can be found here :- http://scikit-learn.org/stable/modules/neighbo
         
 <h3> HOW TO INSTALL </h3>
 To run this system please follow the below steps one by one :
+
 <b> step 1: </b>
 Clone this repository using the command:
 
@@ -69,3 +71,22 @@ Screenshot:
   
   ![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output4.png)
   
+<h3>OUTPUT</h3>
+Dataset :
+
+![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/dataset.png)
+
+Final output:
+
+![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output5.png)
+
+![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output6.png)
+
+<b><h2>REFERENCES</h2></b>
+
+        [1] https://en.wikipedia.org/wiki/Recommender_system
+        [2] https://en.wikipedia.org/wiki/Knowledge-based_recommender_system
+        [3] https://cambridgespark.com/content/tutorials/implementing-your-own-recommender-systems-in-Python/index.html
+       
+
+<b><h4>NOTE:</h4></b> Make sure you type the product details correctly(spelling) and the specifications which are present in the dataset.
