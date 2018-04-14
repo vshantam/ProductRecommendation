@@ -37,8 +37,9 @@ More Details can be found here :- http://scikit-learn.org/stable/modules/neighbo
         
   Or you can use below command to install all dependencies automatically:
   
-        apt-get update && dist-getupgrade; # to update the system.
-        pip3 install -r req.txt
+        apt-get update && dist-getupgrade; # to update the system, not necessary but recommended.
+        pip3 install -r req.txt #python3
+        pip install -r req.txt # for python2
         
 <h3> HOW TO INSTALL </h3>
 To run this system please follow the below steps one by one :
@@ -89,9 +90,11 @@ Final output:
         [3] https://cambridgespark.com/content/tutorials/implementing-your-own-recommender-systems-in-Python/index.html
        
 
-<b><h4>NOTE:</h4></b> Make sure you type the product details correctly(spelling) and the specifications which are present in the dataset.
+<b><h4>NOTE:</h4></b> Make sure you type the product details correctly(spelling) and the specifications which are present in the dataset.<br>
+
+if you are using <b>python2</b> make sure you take input with quotes i.e <b>" "</b><br>
 
 This application is built on Linux based system, it will be best to run on the same but it may run on windows also(not tested yet,soon will be updated.)<br>
 
-Recommended using python3 because most of the dependencies works best with python3.
+Recommended using python3 because most of the dependencies works best with python3.<br>
 <b>Updated for python2 also</b>
