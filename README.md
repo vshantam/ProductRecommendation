@@ -7,8 +7,65 @@ This aplication is based on the electronics based products and to build this dat
 <h2> CONTENTS </h2>
 
     1.Introduction.
-    2.Requirements.
-    3.Dependencies.
+    2.Requirements and Dependencies.
     4.How to run.
     5.Snapshots.
     6.References.
+<h3> INTRODUCTION </h3>
+
+![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/prs1.png)
+
+This system allows us to recommend the similar kind of products which the user might be interested in , The recommendation is based on the type of products and its specifications is been provided by the user itself.<br>
+The <b>algorithm </b> we used in this application is </b>Nearest Neighbors</b>.It  provides functionality for unsupervised and supervised neighbors-based learning methods. Unsupervised nearest neighbors is the foundation of many other learning methods, notably manifold learning and spectral clustering. Supervised neighbors-based learning comes in two flavors: classification for data with discrete labels, and regression for data with continuous labels.<br>
+
+More Details can be found here :- http://scikit-learn.org/stable/modules/neighbors.html
+
+<h3> REQUIREMENTS/DEPENDENCIES </h3>
+
+            numpy >= 1.14.1
+            pandas >= 0.22.0
+            scikit-learn >= 0.19.1
+            pyfiglet >= 0.7.5
+            termcolor >= 0.0
+            colorama >= 0.3.9
+
+   To install the dependencies you can use pip/pip3 commands to install :
+   
+        pip install numpy #for python2
+        pip3 install numpy #for python3
+        
+  Or you can use below command to install all dependencies automatically:
+  
+        apt-get update && dist-getupgrade; # to update the system.
+        pip3 install -r req.txt
+        
+<h3> HOW TO INSTALL </h3>
+To run this system please follow the below steps one by one :
+<b> step 1: </b>
+Clone this repository using the command:
+
+        git clone https://github.com/vshantam/ProductRecommendation.git
+Screenshot:
+![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output1.png)
+        
+ <b>step 2: </b>
+ Change the directory to project repository .
+    
+        cd ProductRecommendation/
+  Screenshot:
+  ![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output2.png)
+  
+  <b>step 3: </b>
+  use python commands to run the scripts, i am using ipython version 3 that is why i will run the python scripts using ipython3 interpreter.
+  
+  commands:
+  
+            ipython3 recom.py # It will build the classifier.
+            ipython3 main.py # main python script.
+            
+  screenshot:
+  
+  ![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output3.png)
+  
+  ![alt_tag](https://github.com/vshantam/ProductRecommendation/blob/master/screenshots/output4.png)
+  
