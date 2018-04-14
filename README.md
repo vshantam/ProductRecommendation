@@ -93,4 +93,5 @@ Final output:
 
 This application is built on Linux based system, it will be best to run on the same but it may run on windows also(not tested yet,soon will be updated.)<br>
 
-Recommended using python3 because most of the dependencies works best with python3 but not with python2.
+Recommended using python3 because most of the dependencies works best with python3.
+<b>Updated for python2 also</b>
