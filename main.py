@@ -7,6 +7,10 @@ Created on Sat Apr 14 18:07:52 2018
 import pickle
 import pandas as pd
 import math
+import sys
+from colorama import init
+from termcolor import cprint 
+from pyfiglet import figlet_format
 
 class Main(object):
     
@@ -33,13 +37,19 @@ class Main(object):
      
         
 if __name__ == "__main__":
-    
+
+    init(strip=not sys.stdout.isatty()) 
+    cprint(figlet_format('P R S!', font='starwars'),
+       'yellow', 'on_red', attrs=['bold'])
+    print("## Product  Recommendor     System!##\n")
+ 
     obj = Main()
     
     df = obj.loaddf("Book1.csv")
-    print("Please provide the product details that you liked in a single line seperated by space in the following order i:\n1.Brand\n2.Product\n3.Model\n4.Color\n5.Price\n6.Rating\n");
+    print("Please provide the product details that you liked in a single line seperated by space in the following order:\n1.Brand\n2.Product\n3.Model\n4.Color\n5.Price\n6.Rating\n");
     print("E.g.")
     print(df.head(n = 5))
+    print("\nPlease Make sure that  you spell correctly and the product details must be available in our dataset.\n")
     print("Enter your Response: ")
 
     while(True):
