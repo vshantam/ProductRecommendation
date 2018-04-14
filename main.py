@@ -143,12 +143,11 @@ Please Make sure that  you spell correctly and the product details must be avail
         #using exceptional handeling to load trained classifier using python 2 or python3 .
         try:
 	    # .pkl extension for python3
-            clf = pickle.load(open('clf.pkl', 'rb'))
+              clf = pickle.load(open('clf.pkl', 'rb'))
 
         except:
             # .sav function for python2
-            import cPickle as pickle
-            clf = pickle.load(open('clf.sav', 'rb'))
+              clf = pickle.load(open('clf.sav', 'rb'))
         
         #creating index to be fitted in the trained classifier and asking for number of recommendations.
         index = clf.kneighbors([[
@@ -167,7 +166,11 @@ Brand \t Product \t Model \t Color \tPrice \t Rating
 ''')
         #displaying  n recomendations
         for i in index[0]:
-            print (list(df.iloc[i]))
+            list1 = list(df.iloc[i])
+            list2 = [str(x).encode('utf-8','ignore') for x in list1]
+            #print (list2) for python2
+            print(list1)#for python3
+
     except KeyError as  k:
 
         print ({}.format(str(k)))

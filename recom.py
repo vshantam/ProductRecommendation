@@ -51,10 +51,10 @@ class Predict(object):
 
     #classmethod to save trained model
     @classmethod
-    def save_clf(self, clf, path_with_name, _type):
+    def save_clf(self, clf, path_with_name, _type, n):
 
         # dumping the data
-        return pickle.dump(clf, open(path_with_name, _type))
+        return pickle.dump(clf, open(path_with_name, _type), protocol = n)
 
 
 
@@ -107,7 +107,7 @@ if __name__=="__main__":
    #saving the trained classifier
     path_with_name = ["clf.pkl", "clf.sav"]
     _type = "wb"
-    obj.save_clf(clf, path_with_name[0], _type) #for python2
-    obj.save_clf(clf, path_with_name[1], _type) #for python3
+    #obj.save_clf(clf, "clf.sav", _type, 2) #for python2
+    obj.save_clf(clf, "clf.pkl", _type, 3) #for python3
 
 ###finished ###
