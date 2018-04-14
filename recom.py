@@ -1,4 +1,4 @@
-# -*- Dataset coding: Latin-1 -*-
+# -*- Dataset encoding: Latin-1 -*-
 """
 Created on Sat Apr 14 13:24:47 2018
 
