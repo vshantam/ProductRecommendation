@@ -178,7 +178,8 @@ Brand \t Product \t Model \t Color \tPrice \t Rating
         print ({}.format(str(k)))
 
     #finished.
-    print ('Finished procedure')
+    print ('Finished procedure..')
+    print ("Exitting Now")
 
 
 			
