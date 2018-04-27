@@ -60,6 +60,8 @@ class Predict(object):
 
 if __name__=="__main__":
 
+    print(__doc__)
+
     #reating the object
     obj = Predict()
     

@@ -46,6 +46,8 @@ class Main(object):
 
 
 if __name__ == '__main__':
+   
+    print(__doc__)
 
     #Ascii art 
     init(strip=not sys.stdout.isatty())
