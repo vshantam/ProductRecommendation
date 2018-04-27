@@ -70,13 +70,17 @@ Screenshot:
   
    in <b>recom.py</b> change the following:
   
+           line no :110 - 111
+           
                 #obj.save_clf(clf, "clf.sav", _type, 2) #for python2 #uncomment this line.
-                obj.save_clf(clf, "clf.pkl", _type, 3) #for python3 #comment this line
+                 obj.save_clf(clf, "clf.pkl", _type, 3) #for python3 #comment this line
                 
-   in <b>main.py</b> 
+   in <b>main.py</b> change the following:
+   
+        line no : 171 - 172
         
             #print (list2) for python2 #uncomment this line
-            print(list1)#for python3 #comment this line
+             print(list1)#for python3 #comment this line
             
  then run the following commands :
  
@@ -117,4 +121,4 @@ if you are using <b>python2</b> make sure you take input with quotes i.e <b>" "<
 This application is built on Linux based system, it will be best to run on the same but it may run on windows also(not tested yet,soon will be updated.)<br>
 
 Recommended using python3 because most of the dependencies works best with python3.<br>
-<b>Updated for python2 also</b>
+<b>Updated for python2 : Please make changes for running in python2 as mentioned above.</b>
